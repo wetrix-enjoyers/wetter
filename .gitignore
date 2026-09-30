@@ -1,0 +1,10 @@
+# Builds happen in the host project's build directory; anything here is local.
+/build/
+/out/
+
+# Profiler samples (tools/soft_prof.py) and captured frames.
+*.samples
+*.ppm
+
+__pycache__/
+.vscode/
